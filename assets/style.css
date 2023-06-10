@@ -8,7 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 60px;
+    padding: 30px;
     background-color: grey;
 }   
 
@@ -36,10 +36,57 @@ nav ul li a:hover{
     color: red;
 }
 
+.projects {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
 .card {
     flex: 1 0 0;
     padding: 10px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
+}
+
+.card img{
+    width: 30%;
+    padding: 10px 0px;
+}
+
+.card header {
+    padding: 20px;
+    background: #13293d;
+    color: #fff;
   }
+  
+main{
+    display: flex;
+}
+
+.AboutMe {
+    flex: 30%;
+    background-color: pink;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.AboutMe img {
+    width: auto%;
+    padding: 20px;
+}
+
+.Work {
+    flex: wrap;
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+
+.HireME {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
