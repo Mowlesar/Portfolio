@@ -86,7 +86,18 @@ main{
 
 
 .HireME {
-    display: flex;
+    display: block;
     justify-content: center;
     padding: 20px;
+    line-height: 100px;
+}
+
+footer ul li{
+    display: block;
+    list-style: none;
+    font-size: 300%;
+}
+
+footer ul li a:hover{
+    color: red;
 }
